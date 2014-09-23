@@ -1,0 +1,23 @@
+{
+  "name": "emma-sdk",
+  "version": "0.0.1",
+  "description": "A Node.js client for the Emma API",
+  "main": "./lib/emma",
+  "author": {
+    "name": "Nathan Peck",
+    "email": "nathan@storydesk.com"
+  },
+  "dependencies": {
+    "request": "2.44.0"
+  },
+  "devDependencies": {
+    "chai": "1.9.1",
+    "mocha": "1.21.4"
+  },
+  "scripts": {
+    "test": "mocha -R spec -s 100 -t 5000 ./tests/test.js"
+  },
+  "keywords": [
+  ],
+  "readmeFilename": "README.md"
+}
