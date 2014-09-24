@@ -1,11 +1,15 @@
 {
   "name": "emma-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Node.js client for the Emma API",
   "main": "./lib/emma",
   "author": {
     "name": "Nathan Peck",
     "email": "nathan@storydesk.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanpeck/emma-sdk.git"
   },
   "dependencies": {
     "request": "2.44.0"
@@ -17,7 +21,13 @@
   "scripts": {
     "test": "mocha -R spec -s 100 -t 5000 ./tests/test.js"
   },
+  "license": "MIT",
   "keywords": [
+    "email",
+    "emma",
+    "marketing",
+    "client",
+    "sdk"
   ],
   "readmeFilename": "README.md"
 }
