@@ -1,6 +1,6 @@
 {
   "name": "emma-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Node.js client for the Emma API",
   "main": "./lib/emma",
   "author": {
